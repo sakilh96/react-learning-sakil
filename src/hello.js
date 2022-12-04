@@ -1,1 +1,7 @@
-//i am created at branch1 
+function Hello(){
+    return (
+        <div>hello</div>
+    );
+}
+
+export default Hello;
