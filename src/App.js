@@ -16,7 +16,8 @@ import './App.css';
 // import PropsClass from './props/PropsClass';
 // import React,{useState} from 'react';   //for state
 // import GetInputVal from './getValue/GetInputVal';
-import Toggle from './toggle/Toggle';
+// import Toggle from './toggle/Toggle';
+import Form from './form/Form';
 function App() {
   // component within compoent
   // function Apple(){
@@ -50,7 +51,8 @@ function App() {
     {/* Get Input Box Value */}
      {/* <GetInputVal/> */}
 
-     <Toggle/>
+     {/* <Toggle/> */}
+     <Form/>
    
   
 
