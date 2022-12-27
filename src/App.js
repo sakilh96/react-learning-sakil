@@ -18,6 +18,7 @@ import './App.css';
 // import GetInputVal from './getValue/GetInputVal';
 // import Toggle from './toggle/Toggle';
 // import Form from './form/Form';
+import Profile from './conditional-rendering/Profile';
 function App() {
   // component within compoent
   // function Apple(){
@@ -54,7 +55,7 @@ function App() {
      {/* <Toggle/> */}
      {/* <Form/> */}
    
-  
+  <Profile/>
 
 
     </div>
