@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+
 // import Student from './functional-component/Student';
 
 //example of multiple components in single pagee
@@ -18,8 +19,23 @@ import './App.css';
 // import GetInputVal from './getValue/GetInputVal';
 // import Toggle from './toggle/Toggle';
 // import Form from './form/Form';
-import Profile from './conditional-rendering/Profile';
+// import Profile from './conditional-rendering/Profile';
+// import Validation from './form/Validation';
+// import User from './props/User';
+// import UserClass2 from './class-component/UserClass2';
+// import User from './functional-component/User';
+// import CDM from './lifeCycle/CDM';
+// import CDU from './lifeCycle/CDU';
+// import SCU from './lifeCycle/SCU';
+// import CWU from './lifeCycle/CWU';
+// import UseState from './hooks/UseState';
+// import HookUseEffect from './hooks/HookUseEffect';
+// import Style from './style/Style';
+import Bootstrap from './style/Bootstrap';
+
+
 function App() {
+ 
   // component within compoent
   // function Apple(){
   //   return(
@@ -27,6 +43,11 @@ function App() {
   //   )
   // }
 // const [data,setName] = useState(0)
+
+//pass function as props
+// function getData(){
+//   alert('hello from App')
+// }
   return (
     <div className="App">
      
@@ -55,7 +76,20 @@ function App() {
      {/* <Toggle/> */}
      {/* <Form/> */}
    
-  <Profile/>
+  {/* <Profile/> */}
+  {/* <Validation/> */}
+
+  {/* <User data={getData}/> */}
+{/* <UserClass2/> */}
+{/* <User/> */}
+{/* <CDM/> */}
+{/* <CDU/> */}
+{/* <SCU/> */}
+{/* <CWU/> */}
+{/* <UseState/> */}
+{/* <HookUseEffect/> */}
+{/* <Style/> */}
+<Bootstrap/>
 
 
     </div>
