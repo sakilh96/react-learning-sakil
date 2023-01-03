@@ -26,7 +26,7 @@ function ListingWithMap() {
 
     return (
         <div>
-            <h1>Array Map</h1>
+            <h1>Array Mappp</h1>
             <table border="1">
                 <tr>
                     <td>Name</td>
