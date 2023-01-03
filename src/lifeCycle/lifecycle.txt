@@ -1,0 +1,7 @@
+Life Cycles.
+1. Constructor.
+2. Render.
+3. ComponentDidMount.
+4. ComponentDidUpdate.
+5. ShouldComponentUpdate
+6. ComponentWillUnmount
