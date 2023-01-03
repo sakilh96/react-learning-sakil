@@ -32,7 +32,9 @@ import './App.css';
 // import HookUseEffect from './hooks/HookUseEffect';
 // import Style from './style/Style';
 // import Bootstrap from './style/Bootstrap';
-import ListingWithMap from './listing-array/ListingWithMap';
+// import ListingWithMap from './listing-array/ListingWithMap';
+// import NestedList from './listing-array/NestedList';
+import ReuseCompParent from './listing-array/ReuseCompParent';
 
 
 function App() {
@@ -91,7 +93,9 @@ function App() {
 {/* <HookUseEffect/> */}
 {/* <Style/> */}
 {/* <Bootstrap/> */}
-<ListingWithMap/>
+{/* <ListingWithMap/> */}
+{/* <NestedList/> */}
+<ReuseCompParent/>
 
 
     </div>
