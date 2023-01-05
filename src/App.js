@@ -34,7 +34,15 @@ import './App.css';
 // import Bootstrap from './style/Bootstrap';
 // import ListingWithMap from './listing-array/ListingWithMap';
 // import NestedList from './listing-array/NestedList';
-import ReuseCompParent from './listing-array/ReuseCompParent';
+// import ReuseCompParent from './listing-array/ReuseCompParent';
+// import FragmentParent from './fragment/FragmentParent';
+// import ParentComp from './lifting-state-up/ParentComp';
+// import User from './pure-component/User';
+// import UseMemo from './hooks/UseMemo';
+// import RefClass from './ref/RefClass';
+// import UseRefHook from './ref/UseRefHook';
+// import ForwardRefParent from './ref/ForwardRefParent';
+import HOC from './component/HOC';
 
 
 function App() {
@@ -95,7 +103,15 @@ function App() {
 {/* <Bootstrap/> */}
 {/* <ListingWithMap/> */}
 {/* <NestedList/> */}
-<ReuseCompParent/>
+{/* <ReuseCompParent/> */}
+{/* <FragmentParent/> */}
+{/* <ParentComp/> */}
+{/* <User/> */}
+{/* <UseMemo/> */}
+{/* <RefClass/> */}
+{/* <UseRefHook/> */}
+{/* <ForwardRefParent/> */}
+<HOC/>
 
 
     </div>
