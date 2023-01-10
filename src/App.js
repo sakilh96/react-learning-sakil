@@ -42,7 +42,10 @@ import './App.css';
 // import RefClass from './ref/RefClass';
 // import UseRefHook from './ref/UseRefHook';
 // import ForwardRefParent from './ref/ForwardRefParent';
-import HOC from './component/HOC';
+// import HOC from './component/HOC';
+import Home from './router/Home';
+import About from './router/About';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 
 function App() {
@@ -111,7 +114,13 @@ function App() {
 {/* <RefClass/> */}
 {/* <UseRefHook/> */}
 {/* <ForwardRefParent/> */}
-<HOC/>
+{/* <HOC/> */}
+<BrowserRouter>
+<Routes>
+  <Route path="/" element={<Home/>}/>
+  <Route path="/about" element={<About/>}/>
+</Routes>
+</BrowserRouter>
 
 
     </div>
